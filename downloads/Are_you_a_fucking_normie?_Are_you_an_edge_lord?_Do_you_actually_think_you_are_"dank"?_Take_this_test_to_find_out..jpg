@@ -1,0 +1,62 @@
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77247083-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Meme Compass</title>
+        <meta name="description" content="Take your Meme Compass test today!">
+
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/flat.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="call_to_action">
+            <img class="compass_image" src="img/demo_compass.png" alt="The meme compass">	 
+            <div class="peterriver action-btn" onclick="location.href='source.php'">Take the test!</div>
+            <br><br>
+        </div>
+        <div class="site_desc">
+        <p class="centered_text">Welcome! This site offers a test that gives you the opportunity to identify your position on the meme compass!</p>
+        <p class="centered_text">The two dimensions that are mesured are <em>dankness</em> and <em>edgyness</em> which are defined below.</p>
+        <br>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+        <div class="vocabulary">
+                        <h2><b>X Axis</b></h2>
+                        <h3><b><em>Dank</em></b></h3>
+                        <p><em>Dank memes</em> is an ironic expression to describe memes that are intentionally bizarre. In the meme culture, it often describes innovative or higher quality memes. These memes often require a deeper understanding of the context, they are often understood by a smaller group rather than the masses.</p>
+                        <h3><b><em>Normie</em></b></h3>
+                        <p>Normies are people unaware of meme culture. Being a normie is not bad, it in fact normal. Normies are will often like memes that are considered low quality or "dead" due to the exhaustion of their comedic value.</p>
+                </div></div>
+                <div class="col-md-6">
+        <div class="vocabulary">
+                <h2><b>Y Axis</b></h2>
+                        <h3><b><em>Edgy</em></b></h3>
+                        <p>An edgy meme challenges social norms. It reveals a dark side to memes and will often shock people.</p>
+                        <h3><b><em>Wholesome</em></b></h3>
+                        <p>A wholesome meme promotes health of mind and/or soul. It supports positivity, compassion, love, understanding and affection. It displays empathy and has no sarcasm.</p>
+        </div>
+                </div>
+            </div>
+       </div>
+    </body>
+</html>
